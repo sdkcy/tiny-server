@@ -1,6 +1,6 @@
 {
   "name": "@sdk_cy/tiny-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight and tiny http server",
   "keywords": [
     "http",

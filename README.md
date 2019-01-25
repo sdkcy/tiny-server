@@ -1,6 +1,6 @@
-# @sdkcy/tiny-server
+# @sdk_cy/tiny-server
 
- @sdkcy/tiny-server is capable of creation http server, performing different actions(just C.R.U.D.) based on different HTTP request and URL.
+ @sdk_cy/tiny-server is capable of creation http server, performing different actions(just C.R.U.D.) based on different HTTP request and URL.
 ## Installation
 
 Use the package manager [npm](https://www.npmjs.com/) to install tiny-server.
@@ -13,7 +13,8 @@ npm install @sdkcy/tiny-server
 
 ```javascript
 const tiny = require("@sdkcy/tiny-server");
-const port = 8000;
+const port =
+ 8000;
 const app = tiny();
 
 app.get("/testGet", (req, res) => {
