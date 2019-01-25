@@ -18,7 +18,7 @@ const app = tiny();
 
 app.get("/testGet", (req, res) => {
     res.setHeaders({"Content-Type": "text/html", "X-Authorization": "Bearer " + "key"});
-    res.status(200).send("testGet");
+    res.status(200).send("Get request successful");
 });
 
 app.listen(port, (err) => {
