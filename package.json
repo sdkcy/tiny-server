@@ -1,0 +1,17 @@
+{
+  "name": "@sdk_cy/tiny-server",
+  "version": "1.0.0",
+  "description": "Lightweight and tiny http server",
+  "keywords": [
+    "http",
+    "tiny",
+    "server",
+    "web service",
+    "express.js"
+  ],
+  "author": {
+    "name": "Sıdıka ÇAY",
+    "email": "sidikacay@yahoo.com"
+  },
+  "license": "MIT"
+}
