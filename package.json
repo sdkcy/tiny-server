@@ -1,5 +1,5 @@
 {
-  "name": "@sdkcy/tiny-server",
+  "name": "@sdk_cy/tiny-server",
   "version": "1.0.0",
   "description": "Lightweight and tiny http server",
   "keywords": [
@@ -10,7 +10,7 @@
     "express.js"
   ],
   "author": {
-    "name": "Sıdıka ÇAY",
+    "name": "Sıdıka Çay",
     "email": "sidikacay@yahoo.com"
   },
   "repository": {
