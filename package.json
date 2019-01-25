@@ -13,5 +13,9 @@
     "name": "Sıdıka ÇAY",
     "email": "sidikacay@yahoo.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sdkcy/tiny-server.git"
+  },
   "license": "MIT"
 }
