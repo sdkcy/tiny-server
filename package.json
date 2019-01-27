@@ -1,9 +1,10 @@
 {
   "name": "@sdk_cy/tiny-server",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Lightweight and tiny http server",
   "scripts": {
-    "test": "mocha ./lib/*.test.js"
+    "test": "mocha ./lib/*.test.js",
+    "eslint": "eslint **/*.js"
   },
   "keywords": [
     "http",
@@ -24,6 +25,7 @@
   "devDependencies": {
     "axios": "^0.18.0",
     "chai": "^4.2.0",
+    "eslint": "^5.12.1",
     "mocha": "^5.2.0"
   }
 }
