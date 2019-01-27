@@ -13,8 +13,7 @@ npm install @sdkcy/tiny-server
 
 ```javascript
 const tiny = require("@sdkcy/tiny-server");
-const port =
- 8000;
+const port = 8000;
 const app = tiny();
 
 app.get("/testGet", (req, res) => {
