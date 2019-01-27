@@ -2,6 +2,9 @@
   "name": "@sdk_cy/tiny-server",
   "version": "1.0.1",
   "description": "Lightweight and tiny http server",
+  "scripts": {
+    "test": "mocha ./lib/*.test.js"
+  },
   "keywords": [
     "http",
     "tiny",
@@ -17,5 +20,10 @@
     "type": "git",
     "url": "https://github.com/sdkcy/tiny-server.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
 }
