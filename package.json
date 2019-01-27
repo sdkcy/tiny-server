@@ -4,7 +4,7 @@
   "description": "Lightweight and tiny http server",
   "scripts": {
     "test": "mocha ./lib/*.test.js",
-    "eslint": "eslint **/*.js"
+    "lint": "eslint **/*.js"
   },
   "keywords": [
     "http",
