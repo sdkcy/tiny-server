@@ -6,13 +6,13 @@
 Use the package manager [npm](https://www.npmjs.com/) to install tiny-server.
 
 ```bash
-npm install @sdkcy/tiny-server
+npm install @sdk_cy/tiny-server
 ```
 
 ## Usage
 
 ```javascript
-const tiny = require("@sdkcy/tiny-server");
+const tiny = require("@sdk_cy/tiny-server");
 const port = 8000;
 const app = tiny();
 
