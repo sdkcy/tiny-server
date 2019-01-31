@@ -4,7 +4,7 @@
  * Created by Sıdıka ÇAY on 27.01.2019
  */
 
-const port = 8000;
+const port = process.env.PORT || 8000;
 const baseURL = "http://localhost:" + port;
 const endPoint = {
     GET_WITHOUT_PARAMETER: "/testGet",
