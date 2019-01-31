@@ -1,6 +1,6 @@
 {
   "name": "@sdk_cy/tiny-server",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Lightweight and tiny http server",
   "scripts": {
     "test": "mocha ./lib/*.test.js",
