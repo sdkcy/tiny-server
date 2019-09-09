@@ -60,7 +60,7 @@ app.listen(port, (err) => {
 });
 ```
 
-##Middleware usage
+## Middleware usage
 
 ```javascript
 const tiny = require("@sdk_cy/tiny-server");
