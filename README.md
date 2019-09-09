@@ -60,6 +60,28 @@ app.listen(port, (err) => {
 });
 ```
 
+## Middleware usage
+
+```javascript
+const tiny = require("@sdk_cy/tiny-server");
+const bodyParser = require('body-parser');
+
+const port = 8000;
+const app = tiny();
+app.use(bodyParser.json());
+
+app.post("/testPost", function (req, res) {
+    return res.status(200).send(JSON.stringify(req.body));
+});
+
+app.listen(port, (err) => {
+    if (err) {
+        return console.log('Error: ', err)
+    }
+    console.log("Server is listening on ", port)
+});
+```
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
