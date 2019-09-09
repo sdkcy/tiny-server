@@ -11,7 +11,8 @@ const endPoint = {
     GET_WITH_PARAMETER: "/testGetParam",
     POST: "/testPost",
     PUT: "/testPut",
-    DELETE: "/testDelete"
+    DELETE: "/testDelete",
+    MIDDLEWARE: "/testMiddleware"
 };
 
 module.exports = {
